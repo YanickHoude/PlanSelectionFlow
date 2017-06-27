@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Standard declarations -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+        <title> Yanick's app </title>
+
+            <!-- Bootstrap Magic -->
+            <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!-- more bootstrap -->
+            <script src="main.js"></script>
+
+            <link rel="stylesheet" href="main.css"> <!-- My own style sheet too.-->
+
+        
+
+    </head>
+
+    <body>
+        <div class="container-fluid">
+        <h1 align="center">Plan Selection Flow</h1>
+            <div class="col-sm-10 col-centered" align="center">
+        <div class="row">
+            
+            <!--Scrollable Phone List-->
+            <div class="col-sm-2">
+                <div class="well">
+                
+                    <div class="phonescroll">
+                        
+                        <div onclick="GalaxyS8Select()" class="phoneelement">
+                            <div class="devicename">
+                            <h4>Galaxy S8</h4>
+                            </div>
+                            <div class="device">
+                            <img src="/Images/samsunggalaxys8.png">        
+                            </div>
+                        </div>
+
+                        <div onclick="IPhone7Select()" class="phoneelement">
+                            <div class="devicename">
+                            <h4>IPhone 7 Plus</h4>
+                            </div>
+                            <div class="device">
+                            <img src="/Images/iphone7plus.png">        
+                            </div>
+                        </div>
+                        
+                        <div onclick="LGG6Select()" class="phoneelement">
+                            <div class="devicename">
+                            <h4>LGG6</h4>
+                            </div>
+                            <div class="device">
+                            <img src="/Images/lgg6.png">        
+                            </div>
+                        </div>
+                        
+                        
+                        <div onclick="GalaxyS7Select()" class="phoneelement">
+                            <div class="devicename">
+                            <h4>Galaxy S7</h4>
+                            </div>
+                            <div class="device">
+                            <img src="/Images/samsunggalaxys7.png">        
+                            </div>
+                        </div>
+                        
+                        
+                    <div onclick="MotoG5Select()" class="phoneelement">
+                            <div class="devicename">
+                            <h4>Moto G5</h4>
+                            </div>
+                            <div class="device">
+                            <img src="/Images/motog5.png">        
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+            
+            <!--Phone & Price Display-->
+            <div class="col-sm-3">
+                
+    
+                <h1 id="phoneName">Galaxy S8
+                </h1>
+            
+                <img id="phoneImage" src="/Images/samsunggalaxys8.png">
+                
+                <div class="phonePrice">
+                    <div style="clear:both">
+                        <h1 style="float:left">$</h1><h1 id="phonePrice" style="float:right">299.99</h1> 
+                    </div>
+                               
+                </div>
+               
+            
+            
+            
+            </div>
+            
+            <!--Plan Selection Grid-->
+            <div class="col-sm-7" style="background-color:transparent;">
+            
+                <div class="row">
+                    <h4>Subsidy Tier</h4>    
+                    </div>
+                
+                <div class="row">
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-block" style="background-color:#E4E3DF !important">
+                        Silver
+                        </button>
+                    </div>
+                      <div class="col-md-4">
+                        <button type="button" class="btn btn-block" style="background-color:#E7B702 !important">
+                        Gold
+                        </button>
+                    </div>
+                      <div class="col-md-4">
+                        <button type="button" class="btn btn-block" style="background-color:dimgrey !important" >
+                        Platinum
+                        </button>
+                    </div>
+                
+                </div>
+                
+                <div class="row top-buffer"></div> 
+                
+                <div class="row">
+                    <h4>Canada-wide minutes</h4>    
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-block" style="background-color: transparent !important" style="border-color: #FEFDFD !important">
+                        100
+                        </button>
+                    </div>
+                        <div class="col-md-3">
+                        <button type="button" class="btn btn-block" style="background-color: transparent !important" style="border-color: red !important">
+                        300
+                        </button>
+                    </div>
+                        <div class="col-md-3">
+                        <button type="button" class="btn btn-block"  style="background-color: transparent !important" style="border-color: red !important">
+                        500
+                        </button>
+                    </div>
+                        <div class="col-md-3">
+                        <button type="button" class="btn btn-block" style="background-color: transparent !important" style="border-color: red !important">
+                        UNL.
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="row top-buffer"></div>
+                
+                <div class="row">
+                    <h4>Data</h4>    
+                    </div>
+
+                <div class="row">
+                    <button type="button" class="btn btn-danger">500MB</button>
+                    <button type="button" class="btn btn-danger">1GB</button> 
+                    <button type="button" class="btn btn-danger">2MB</button>
+                    <button type="button" class="btn btn-danger">3GB</button>
+                    <button type="button" class="btn btn-danger">5GB</button>
+                    <button type="button" class="btn btn-danger">7GB</button>
+                    <button type="button" class="btn btn-danger">10GB</button>       
+                </div>
+            
+                <div class="row top-buffer"></div>
+                
+                <div class="row">
+                    <h4>Add-Ons</h4>    
+                    </div>
+            
+                <div class="row">
+                    <button type="button" class="btn btn-default">Roam Sweet Roam</button>
+                    <button type="button" class="btn btn-default">Premium Smartcare</button>
+                    <button type="button" class="btn btn-default">UNL. US Long Distance</button>
+                </div>
+                
+                <div class="row big-buffer"></div>
+                
+                <div class="row">
+                <h1 style="float:left">+</h1>
+                    <h1 style="float:left">&nbsp&nbsp&nbsp&nbsp&nbsp</h1>
+                <h1 id="planPrice" style="float:left">$$$</h1>
+                </div>
+            
+            
+            </div>
+            </div>
+            </div>
+        </div> <!-- of main col-->
+
+   
+        
+    </body>
+</html>

@@ -1,0 +1,132 @@
+
+html, body {
+    background-color: white;
+}
+
+body {
+    
+}
+
+.phonescroll {
+    display: flex;
+    flex-direction: column;
+    height: 525px;
+    width: 100%;
+    overflow-y:scroll;
+    background-color: transparent;
+}
+
+.wrapper {
+    height:100%;
+    width:100%;
+}
+
+.phoneelement {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    min-height: 300px;
+    max-height: 300px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:5%;
+    background-color: transparent;
+}
+
+title {
+    
+}
+
+.col-centered {
+    float:none;
+    margin: 0 auto;
+}
+
+.col-sm-2 {
+    padding:0px;
+    
+}
+
+.devicename {
+   text-align: center;
+}
+
+.well {
+    padding:0px;
+}
+
+.device {
+    align-content: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    font-size:35px;
+    padding-top: 0px;
+    float:top;
+    font-weight: bold;
+}
+
+.curDeviceName {
+    width:100%;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.col-sm-3 {
+    position:relative;
+}
+
+.phonePrice {
+    float:left;
+    position:absolute;
+    height:50px;
+    width:225px;
+    background-color: transparent;
+    left:20px;
+    top:450px;   
+    padding-left: 35px;
+    padding-right: 35px;
+    }
+
+h4 {
+    text-align: center;
+    
+}
+
+.btn-block {
+    font-size:40px;
+    border-color:black;
+}
+
+.top-buffer {
+    margin-top:10px;
+}
+
+
+
+
+
+
+.btn-default {
+    font-size: 18px;
+    border-color:red;
+    
+}
+
+.big-buffer {
+    margin-top:47px;
+}
+
+#pohnePrice {
+    
+}
+
+#phonePrice {
+    
+}
