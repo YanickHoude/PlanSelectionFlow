@@ -6,7 +6,7 @@ function GalaxyS8Select(){
     document.getElementById("phoneName").innerHTML = phones[0][0];
     
     document.getElementById("phonePrice").innerHTML = phones[0][1];
-    document.getElementById("phoneImage").src = "/Images/samsunggalaxys8.png";
+    document.getElementById("phoneImage").src = "Images/samsunggalaxys8.png";
 }
 
 function IPhone7Select(){
