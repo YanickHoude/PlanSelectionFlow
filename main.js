@@ -6,32 +6,32 @@ function GalaxyS8Select(){
     document.getElementById("phoneName").innerHTML = phones[0][0];
     
     document.getElementById("phonePrice").innerHTML = phones[0][1];
-    document.getElementById("phoneImage").src = "/Images/samsunggalaxys8.png";
+    document.getElementById("phoneImage").src = "Images/samsunggalaxys8.png";
 }
 
 function IPhone7Select(){
     document.getElementById("phoneName").innerHTML = phones[1][0];
     document.getElementById("phonePrice").innerHTML = phones[1][1];
-     document.getElementById("phoneImage").src = "/Images/iphone7plus.png";
+     document.getElementById("phoneImage").src = "Images/iphone7plus.png";
 }
 
 function LGG6Select(){
     document.getElementById("phoneName").innerHTML = phones[2][0];
     document.getElementById("phonePrice").innerHTML = phones[2][1];
-    document.getElementById("phoneImage").src = "/Images/lgg6.png";
+    document.getElementById("phoneImage").src = "Images/lgg6.png";
     
 }
 
 function GalaxyS7Select(){
     document.getElementById("phoneName").innerHTML = phones[3][0];
     document.getElementById("phonePrice").innerHTML = phones[3][1];
-    document.getElementById("phoneImage").src = "/Images/samsunggalaxys7.png";
+    document.getElementById("phoneImage").src = "Images/samsunggalaxys7.png";
 }
 
 function MotoG5Select(){
     document.getElementById("phoneName").innerHTML = phones[4][0];
     document.getElementById("phonePrice").innerHTML = phones[4][1];
-    document.getElementById("phoneImage").src = "/Images/motog5.png";
+    document.getElementById("phoneImage").src = "Images/motog5.png";
 }
 
 
